@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(199, 195, 195);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  margin: 0;
+  min-height: 100vh;
+}
+
+.pw-container {
+  background-color: rgb(73, 80, 80);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  width: 400px;
+}
+
+.pw-header {
+  padding: 1rem;
+}
+
+span {
+  color: black;
+}
+
+.pw {
+  background-color: rgb(214, 213, 213);
+  display: flex;
+  font-size: 1.5rem;
+  align-items: center;
+  height: 70px;
+  width: 100%;
+  position: relative;
+  padding: 1rem;
+  overflow: auto;
+}
+
+.pw button {
+  background-color: rgb(29, 28, 28);
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  /* transform: translate(0, 20%); */
+  /* transition: opacity 0.15s ease, transform 0.2s ease; */
+  /* opacity: 0; */
+  transform: translate(0, -60%);
+  opacity: 1;
+}
+
+/* .pw:hover button {
+  opacity: 1;
+  transform: translate(0, -70%);
+} */
+
+.form-control {
+  display: flex;
+  color: #eee; 
+  justify-content: space-between;
+  margin: 0.75rem 0;
+}
+
+.generate {
+  background-color: #cc1818;
+  border: none;
+  cursor: pointer;
+  color: rgb(207, 207, 207);
+  display: block;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  /* width: 6% left; */
+}
+.reset {
+  background-color: #c2c2c2;
+  border: none;
+  cursor: pointer;
+  color: rgb(27, 27, 27);
+  display: block;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  /* width: 40% right; */
+}
+
+.pw-body {
+  padding: 0 1rem 1rem;
+}
